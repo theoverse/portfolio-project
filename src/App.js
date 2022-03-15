@@ -5,6 +5,7 @@ import Navbar from './component/Navbar';
 import Header from './component/Header';
 import AboutMe from './component/AboutMe';
 import Interests from './component/Interests';
+import Experience from './component/Experience';
 
 function App() {
   const particlesInit = (main) => {
@@ -106,6 +107,7 @@ function App() {
         <Header />
         <AboutMe />
         <Interests />
+        <Experience />
       </>
     </div>
   );
