@@ -1,5 +1,5 @@
-import React from "react"
-import Typed from "react-typed"
+import React from "react";
+import Typed from "react-typed";
 
 const Header = () => {
     return (

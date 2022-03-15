@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../logo.png"
+import logo from "../logo.png";
 // React Fontawesome Imports
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
@@ -21,8 +21,11 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#">about me</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#">skills</a>
+                        </li> */}
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">interests</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">blog</a>

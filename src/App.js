@@ -4,6 +4,7 @@ import Particles from 'react-tsparticles';
 import Navbar from './component/Navbar';
 import Header from './component/Header';
 import AboutMe from './component/AboutMe';
+import Interests from './component/Interests';
 
 function App() {
   const particlesInit = (main) => {
@@ -104,6 +105,7 @@ function App() {
         <Navbar />
         <Header />
         <AboutMe />
+        <Interests />
       </>
     </div>
   );
