@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from 'react-tsparticles';
 import Navbar from './component/Navbar';
 import Header from './component/Header';
+import AboutMe from './component/AboutMe';
 
 function App() {
   const particlesInit = (main) => {
@@ -102,6 +103,7 @@ function App() {
         />
         <Navbar />
         <Header />
+        <AboutMe />
       </>
     </div>
   );
