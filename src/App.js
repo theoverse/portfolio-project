@@ -7,6 +7,7 @@ import AboutMe from './component/AboutMe';
 import Interests from './component/Interests';
 import Experience from './component/Experience';
 import Portfolio from './component/Portfolio';
+import Testimonials from './component/Testimonials';
 
 function App() {
   const particlesInit = (main) => {
@@ -110,6 +111,7 @@ function App() {
         <Interests />
         <Experience />
         <Portfolio />
+        <Testimonials />
       </>
     </div>
   );
