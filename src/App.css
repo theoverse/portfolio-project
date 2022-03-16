@@ -13,6 +13,7 @@ body {
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-black: #000000;
 }
 
 /****************************** NAVBAR ***********************************/
@@ -198,6 +199,7 @@ nav ul {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .interests .box:hover {
@@ -283,7 +285,7 @@ nav ul {
   font-weight: 900;
 }
 
-/*-------------------------- MEDIA ---------------------------*/
+/*---------------------------- MEDIA ----------------------------*/
 @media(max-width: 768px) {
   .experience .container {
     padding-left: 0;
@@ -300,5 +302,105 @@ nav ul {
     float: none;
     direction: ltr;
     width: 100%;
+  }
+}
+
+/************************* PORTFOLIO *****************************/
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper h1 {
+  color: var(--primary-orange);
+}
+
+.portfolio-img {
+  width: 15rem;
+  height: 8rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0.5rem 0.5rem;
+}
+
+.portfolio-img-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/*------------------------ OVERFLOW BOX ------------------------*/
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.portfolio-img-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+}
+
+.portfolio-img-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/*------------------------ OVERFLOW BOX ------------------------*/
+.portfolio-img-popupbox {
+  width: 40rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange); 
+}
+
+.hyper-link:hover {
+  color: var(--primary-red); 
+}
+
+/*--------------------------- MEDIA ---------------------------*/
+@media(max-width: 768px) {
+  .portfolio-img-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-width: 653px) {
+  .portfolio-img-popupbox {
+    width: 30%;
+  }
+}
+
+@media(max-width: 570px) {
+  .popupbox-wrapper {
+    height: 80%;
+  }
+  .portfolio-img-popupbox {
+    width: 40%;
+  }
+}
+
+@media(max-width: 280px) {
+  .popupbox-wrapper {
+    height: 50%;
+  }
+  .portfolio-img-popupbox {
+    width: 30%;
   }
 }
