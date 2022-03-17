@@ -4,7 +4,7 @@ import { faDesktop, faFileCode, faEye, faGamepad } from "@fortawesome/free-solid
 
 const Interests = () => {
     return (
-        <div className='interests'>
+        <div id="interests" className='interests'>
             <h1 className="py-5">My Interests</h1>
             <div className="container">
                 <div className="row">
