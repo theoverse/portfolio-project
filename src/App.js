@@ -8,6 +8,7 @@ import Interests from './component/Interests';
 import Experience from './component/Experience';
 import Portfolio from './component/Portfolio';
 import Testimonials from './component/Testimonials';
+import Contacts from './component/Contacts';
 
 function App() {
   const particlesInit = (main) => {
@@ -112,6 +113,7 @@ function App() {
         <Experience />
         <Portfolio />
         <Testimonials />
+        <Contacts />
       </>
     </div>
   );
