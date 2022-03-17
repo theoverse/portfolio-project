@@ -83,7 +83,7 @@ const Header = () => {
                                 enable: true,
                                 area: 900,
                             },
-                            value: 40,
+                            value: 35,
                         },
                         opacity: {
                             value: 0.5,
@@ -100,7 +100,7 @@ const Header = () => {
                 }}
             />
             <div className="main-info">
-                <h1>web development and websites promotions</h1>
+                <h1>web development and websites design</h1>
                 <Typed
                     className="typed-text"
                     strings={["Web Design", "Web Development", "Animation", "Game Development"]}

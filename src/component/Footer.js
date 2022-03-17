@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll/modules";
 import {
     FacebookShareButton,
     FacebookIcon,
@@ -29,14 +30,14 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav">Home</a><br />
-                                <a className="footer-nav">About Me</a><br />
-                                <a className="footer-nav">Interests</a>
+                                <Link to="home" offset={-60} className="footer-nav">Home</Link><br />
+                                <Link to="about" offset={-60} className="footer-nav">About Me</Link><br />
+                                <Link to="interests" offset={-60} className="footer-nav">Interests</Link>
                             </div>
                             <div className="col">
-                                <a className="footer-nav">Experience</a><br />
-                                <a className="footer-nav">Portfolio</a><br />
-                                <a className="footer-nav">Contacts</a>
+                                <Link to="experience" offset={-60} className="footer-nav">Experience</Link><br />
+                                <Link to="portfolio" offset={-60} className="footer-nav">Portfolio</Link><br />
+                                <Link to="contacts" offset={-60} className="footer-nav">Contacts</Link>
                             </div>
                         </div>
                     </div>
