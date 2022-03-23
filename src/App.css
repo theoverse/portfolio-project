@@ -29,7 +29,7 @@ nav {
 
 /*--------------------------- MENU LINK --------------------------------*/
 nav a.nav-link {
-  font-size: .8rem;
+  font-size: .9rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -144,11 +144,10 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .profile-img {
-  width: 18rem;
+  width: 20rem;
   border-radius: 25%;
   padding: .3rem;
   border: 1px solid var(--primary-orange);
@@ -157,6 +156,10 @@ nav ul {
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+}
+
+.about-paragraph {
+  font-size: 1.2rem;
 }
 
 @media(max-width: 468px) {
@@ -173,7 +176,7 @@ nav ul {
 }
 
 .interests h1 {
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   text-transform: uppercase;
 }
 

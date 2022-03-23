@@ -27,16 +27,17 @@ const Portfolio = () => {
                     https://github.com/theoverse/eWallet</a>
             </>
         )
-        PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigEwallet = {
-        titleBar: {
-            enable: true,
-            text: "eWallet"
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
+        PopupboxManager.open({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "eWallet"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
     }
 
     // proFinder
@@ -53,16 +54,17 @@ const Portfolio = () => {
                     https://github.com/theoverse/profinder</a>
             </>
         )
-        PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigProFinder = {
-        titleBar: {
-            enable: true,
-            text: "proFinder"
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
+        PopupboxManager.open({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "proFinder"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
     }
 
     // contactManager
@@ -79,16 +81,17 @@ const Portfolio = () => {
                     https://github.com/theoverse/contact-manager</a>
             </>
         )
-        PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigContactManager = {
-        titleBar: {
-            enable: true,
-            text: "Contact Manager"
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
+        PopupboxManager.open({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Contact Manager"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
     }
 
     // theBicycleShop
@@ -105,16 +108,17 @@ const Portfolio = () => {
                     https://github.com/theoverse/the-bicycle-shop-expressjs</a>
             </>
         )
-        PopupboxManager.open({ content })
-    }
-
-    const popupboxConfigTheBicycleShop = {
-        titleBar: {
-            enable: true,
-            text: "The Bicycle Shop"
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
+        PopupboxManager.open({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "The Bicycle Shop"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
     }
 
     return (
@@ -147,10 +151,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <PopupboxContainer {...popupboxConfigEwallet} />
-            <PopupboxContainer {...popupboxConfigProFinder} />
-            <PopupboxContainer {...popupboxConfigContactManager} />
-            <PopupboxContainer {...popupboxConfigTheBicycleShop} />
+            <PopupboxContainer />
         </div >
     )
 }
