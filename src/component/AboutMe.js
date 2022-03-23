@@ -12,18 +12,16 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About Me</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit molestiae saepe voluptate similique asperiores omnis!
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat repudiandae molestias delectus ut!
+                    <p className="about-paragraph">
+                        Hi, I'm Joshua. I'm a full stack developer with a preference for frontend development and web technologies.
+                        I'm someone who can work on both back-end and front-end of systems using a range of different technologies and languages.
 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur laborum architecto sunt neque maxime voluptates!
+                        I have knowledge of multiple front-end languages and libraries (e.g. HTML/ CSS, JavaScript) and JavaScript frameworks (e.g. React, NodeJS, ExpressJS).
+                        I also have some familiarity with databases (e.g. MySQL, MongoDB), web servers (e.g. Apache), OSs (e.g. Windows, several Linux Distros) and much more.
 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, debitis? Perferendis corporis quam culpa ipsam?
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto deleniti odit eaque.
-
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime neque sit, tenetur veritatis expedita pariatur?
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eos laudantium perspiciatis sit eaque?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, sit ullam!
+                        My most used stack Would be MERN stack, and my strongest language would be JavaScript with some knowledge of Python, Java, and Scala.
+                        I'm flexible when it comes to technology, I learn quickly, I have great attention to detail, work well as an individual or in a team environment,
+                        and problem-solving comes second nature to me. If you would like to get in contact with me, please send me a message below.
                     </p>
                 </div>
             </div>

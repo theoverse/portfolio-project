@@ -158,6 +158,10 @@ nav ul {
   text-transform: uppercase;
 }
 
+.about-paragraph {
+  font-size: 1.2rem;
+}
+
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;

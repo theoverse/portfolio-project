@@ -81,7 +81,7 @@ const Header = () => {
                         number: {
                             density: {
                                 enable: true,
-                                area: 900,
+                                area: 300,
                             },
                             value: 35,
                         },
